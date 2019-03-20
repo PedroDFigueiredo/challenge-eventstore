@@ -10,7 +10,7 @@ public class SynchronizedEventIterator implements EventIterator {
     private Event current;
 
     /**
-     *  SynchronizedEventIterator receives a copy of a list contaning only the events of especific type
+     *  SynchronizedEventIterator receives a copy of a list containing only the events of specific type
      */
     public SynchronizedEventIterator(Collection<Event> listEvents, long startTime, long endTime) {
         this.list = Collections.synchronizedCollection(listEvents);

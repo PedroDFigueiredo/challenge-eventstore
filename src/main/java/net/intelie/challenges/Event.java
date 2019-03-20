@@ -20,7 +20,6 @@ public class Event {
         return timestamp;
     }
 
-
     public String toString() {
         return this.type + " " + this.timestamp;
     }

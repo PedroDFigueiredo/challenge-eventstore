@@ -10,7 +10,6 @@ import java.util.*;
  * synchronization wrappers implemented within the Collections class.
  *
  * synchronized views are easily implemented using theses wrappers
- *
  */
 public class SynchronizedEventStore implements EventStore {
 
